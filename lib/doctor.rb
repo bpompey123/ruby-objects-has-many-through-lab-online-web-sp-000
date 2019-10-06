@@ -11,6 +11,12 @@ class Doctor
     @@all
   end
 
+  def appointments
+    Appointment.all.select do |appt|
+      appt.artist == self
+    end
+  end
+
 
 
 
