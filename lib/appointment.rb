@@ -1,0 +1,9 @@
+class Appointment
+
+
+
+
+
+
+
+end
